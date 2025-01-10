@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply bg-body;
+}
+
+.container {
+    @apply max-w-6xl m-auto;
+}
