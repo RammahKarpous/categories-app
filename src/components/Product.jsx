@@ -6,7 +6,7 @@ export default function Product({ product }) {
     const { price } = product.product_price;
 
     return (
-        <div className="flex flex-col gap-5 p-2 pb-8 transition-all duration-500 bg-white rounded-2xl">
+        <div className="flex flex-col gap-5 p-2 pb-8 bg-white rounded-2xl transition-all duration-500">
             <div className="aspect-[4/2.8] relative w-full overflow-hidden flex items-center justify-center rounded-xl">
                 <img src={image_url} alt={alternate_text} className="object-cover transition-all duration-500 size-full" />
             </div>
